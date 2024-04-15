@@ -5,6 +5,7 @@ import Form from "./components/Form.jsx";
 import NewButton from "./components/NewButton.jsx";
 import "./style.css";
 import Board from "./components/Board.jsx";
+import Ref from "./components/Ref.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +39,8 @@ function App() {
         />
         <hr />
         <Board />
+        <hr />
+        <Ref />
       </div>
     </>
   );
